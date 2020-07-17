@@ -17,7 +17,7 @@
     font-size: 2.5vw;
     font-weight: bold;
     color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .right-container {
@@ -26,35 +26,22 @@
 }
 
 .empty {
-    background-color: #FFFFFF;
     flex: 1;
 }
 
 .information-container {
-    background-color: #FFFFFF;
-    flex: 1;
+    flex: 3;
     display: flex;
-}
-
-.information-container {
     font-family: Roboto;
     font-style: normal;
     font-weight: bolder;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     line-height: 2vw;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.1vw;
-    /* word-spacing: 1ex; */
-}
-
-.info-1 {
-    margin-right: 0.3vw;
-}
-
-.info-2 {
-    margin-right: 0.3vw;
+    justify-content: space-evenly;
 }
 
 .box-container {
@@ -88,13 +75,13 @@
     flex-direction: row;
 }
 
-.question-1 {
+.question {
     font-size: 1.4vw;
     color: #555555;
     margin-bottom: -1.6vw;
 }
 
-.answer-1 {
+.answer {
     font-size: 1.6vw;
     color: #000000;
     align-items: center;
@@ -104,6 +91,22 @@
 
 .left-part {
     flex: 1;
+    display: flex;
+}
+
+.right-part {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-empty {
+    flex: 0.3;
+}
+
+.icons-container {
+    flex: 1;
+    padding-left: 28vw;
 }
 
 .email-container {
@@ -147,20 +150,16 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    /* background-color: white; */
     padding: 2vw 0vw 2vw 2vw;
     border-radius: 2vw;
 }
 
 .img-container-2 {
     flex: 1;
-    /* background-color: green; */
-    /* padding: 2vw 2vw 0vw 2vw; */
 }
 
 .description-2 {
     flex: 1.2;
-    /* background-color: orange; */
 }
 
 .main-web-pg {
@@ -172,16 +171,15 @@
     background-color: #D8E4FA;
     margin: 2vw 5.2vw 2vw 5.2vw;
     flex-direction: column;
+    padding-bottom: 2vw;
 }
 
 .subscription-header {
-    /* background-color: red; */
     font-size: 2vw;
     text-align: center;
 }
 
 .subscription-body {
-    /* background-color: blue; */
     display: flex;
     justify-content: space-around;
     font-size: 1.4vw;
@@ -209,4 +207,26 @@
     flex: 2;
     vertical-align: center;
     margin: auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.cut-text {
+    text-decoration: line-through;
+}
+
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.footer-text {
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: #333333;
 }
