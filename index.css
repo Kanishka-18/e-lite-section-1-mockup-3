@@ -1,0 +1,212 @@
+.web-page {
+    padding: 0.8vw;
+    margin-left: 1.3vw;
+    margin-right: 1.3vw;
+}
+
+.header-container {
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.left-container {
+    flex: 1;
+}
+
+.left-container-text {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.right-container {
+    flex: 1;
+    display: flex;
+}
+
+.empty {
+    background-color: #FFFFFF;
+    flex: 1;
+}
+
+.information-container {
+    background-color: #FFFFFF;
+    flex: 1;
+    display: flex;
+}
+
+.information-container {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.6vw;
+    line-height: 2vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1vw;
+    /* word-spacing: 1ex; */
+}
+
+.info-1 {
+    margin-right: 0.3vw;
+}
+
+.info-2 {
+    margin-right: 0.3vw;
+}
+
+.box-container {
+    background-color: #D8E4FA;
+    margin: 5vw 4.9vw 2vw 5vw;
+    display: flex;
+}
+
+.text {
+    margin: 2vw 4vw 2vw 4vw;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.the-chat-buttons {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+}
+
+.chatting-button {
+    background-color: #2977F5;
+    padding: 1vw 1vw 1vw 1vw;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.our-contact {
+    margin: 2.5vw 4.9vw 2vw 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.question-1 {
+    font-size: 1.4vw;
+    color: #555555;
+    margin-bottom: -1.6vw;
+}
+
+.answer-1 {
+    font-size: 1.6vw;
+    color: #000000;
+    align-items: center;
+    letter-spacing: 0.04em;
+    font-weight: bolder;
+}
+
+.left-part {
+    flex: 1;
+}
+
+.email-container {
+    flex: 1;
+}
+
+.phone-number-container {
+    flex: 1;
+}
+
+.img-container {
+    width: 100%;
+}
+
+.description {
+    padding: 1vw;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+}
+
+.department-name {
+    font-size: 1.6vw;
+    line-height: 5vw;
+    font-weight: bold;
+}
+
+.details {
+    font-size: 1.2vw;
+}
+
+.departments-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 5.2vw 2vw 5.2vw;
+}
+
+.boxes-2 {
+    flex: 0 1 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    padding: 2vw 0vw 2vw 2vw;
+    border-radius: 2vw;
+}
+
+.img-container-2 {
+    flex: 1;
+    /* background-color: green; */
+    /* padding: 2vw 2vw 0vw 2vw; */
+}
+
+.description-2 {
+    flex: 1.2;
+    /* background-color: orange; */
+}
+
+.main-web-pg {
+    background: rgba(41, 119, 245, 0.07);
+}
+
+.subscription-container {
+    display: flex;
+    background-color: #D8E4FA;
+    margin: 2vw 5.2vw 2vw 5.2vw;
+    flex-direction: column;
+}
+
+.subscription-header {
+    /* background-color: red; */
+    font-size: 2vw;
+    text-align: center;
+}
+
+.subscription-body {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4vw;
+    color: #777777;
+}
+
+.subscribe {
+    width: 40%;
+    background-color: white;
+    display: flex;
+    padding: 0.8vw;
+}
+
+.subscription-button {
+    background-color: #2977F5;
+    padding: 1vw 3vw 1vw 3vw;
+    margin: auto;
+}
+
+.e-mail-id-container {
+    flex: 3;
+}
+
+.subscription-button-container {
+    flex: 2;
+    vertical-align: center;
+    margin: auto;
+}
